@@ -75,3 +75,9 @@
 #接上 $ git clone git@github.com:michaelliao/gitskills.git
 #接上，clone,must know the address of remote repository, .ssh,most fast,https,slow. 
 # 切换分支 $ git checkout -b dev  相当于 $ git branch dev 创建分支  $ git checkout dev  切换分支
+
+
+#在本地仓库版本库中，建立新的文件夹
+#接上 mkdir newfolder   
+#接上 git add new folder 
+#接上 git commmit -m 'add a new folder to the repository'
