@@ -90,4 +90,7 @@
 #接上 合并完成后就可以删除dev $ git branch -d dev  查看后 git branch ,就只剩下master
 # 合并分支 fastward 快进模式，直接指向分支提交
 
+#删除文件后，需要执行  $git rm 文件名，，git commmit -m ''.再推送远程
+#接上 也可以 $ git add -u  再提交 再推送远程
+#接上 也可以直接提交  $ git commit -a -m '' 再推送远程
 
