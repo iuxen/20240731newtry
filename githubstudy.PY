@@ -81,3 +81,13 @@
 #接上 mkdir newfolder   
 #接上 git add new folder 
 #接上 git commmit -m 'add a new folder to the repository'
+
+
+#创建与合并分支
+#$ git checkout -b dev  git switch -c dev表示创建并切换，相当于 $git branch dev  $ git checkout dev   git switch dev
+#查看分支 $git branch
+#合并分支dev成果并到master分支上  $ git checkout master    $git merge dev
+#接上 合并完成后就可以删除dev $ git branch -d dev  查看后 git branch ,就只剩下master
+# 合并分支 fastward 快进模式，直接指向分支提交
+
+
