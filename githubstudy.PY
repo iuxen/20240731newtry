@@ -94,3 +94,7 @@
 #接上 也可以 $ git add -u  再提交 再推送远程
 #接上 也可以直接提交  $ git commit -a -m '' 再推送远程
 
+
+#合并远程库 $ git fetch origin  将远程更新下载到本地，不会影响工作分支
+#接上 $ git diff origin/master 差看远程和本地库的差异
+#接上 $ git merge origin/master 将远程更改合并到本地分支
